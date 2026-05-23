@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Dijital Dergi - Mobil Test</title>
+  <style>
+    html,body{margin:0;height:100%;font-family:Arial,Helvetica,sans-serif;background:#101827;color:#fff}
+    .wrap{min-height:100%;display:flex;align-items:center;justify-content:center;padding:24px;box-sizing:border-box;text-align:center}
+    .card{max-width:720px;background:rgba(255,255,255,.08);border:1px solid rgba(255,255,255,.18);border-radius:22px;padding:28px;box-shadow:0 18px 60px rgba(0,0,0,.35)}
+    h1{margin:0 0 12px;font-size:28px}.muted{opacity:.82;line-height:1.55}.buttons{display:flex;gap:14px;justify-content:center;flex-wrap:wrap;margin-top:24px}
+    a{display:inline-block;padding:14px 20px;border-radius:14px;background:#fff;color:#101827;text-decoration:none;font-weight:700}
+    a.secondary{background:transparent;color:#fff;border:1px solid rgba(255,255,255,.35)}
+  </style>
+</head>
+<body>
+  <div class="wrap"><div class="card">
+    <h1>Dijital Dergi Test</h1>
+    <p class="muted">Bu paket telefonda ve bilgisayarda Flash kullanmadan açılacak şekilde mobil HTML sürümüne yönlendirildi.</p>
+    <div class="buttons">
+      <a href="mobile/index.html">Mobil / HTML5 Sürümü Aç</a>
+      <a class="secondary" href="files/basic-html/index.html">Basit HTML Sayfalar</a>
+    </div>
+  </div></div>
+  <script>setTimeout(function(){ location.href='mobile/index.html'; }, 1200);</script>
+</body>
+</html>
